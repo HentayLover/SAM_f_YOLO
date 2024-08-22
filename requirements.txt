@@ -1,0 +1,7 @@
+conda create --name sam_env python=3.9
+conda activate sam_env
+pip install torch torchvision torchaudio
+pip install opencv-python-headless
+pip install pillow
+pip install numpy
+pip install git+https://github.com/facebookresearch/segment-anything.git
